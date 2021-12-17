@@ -7,6 +7,7 @@ let container = document.querySelector('#container');
 
 //Função de calcular os dados e dizer qual é o peso ideal
 calcular.onclick = function (){
+    limparMsg();
 
     if(nome.value === ''){
         let msg = document.createTextNode('Digite um nome');
@@ -35,5 +36,20 @@ calcular.onclick = function (){
         pElement.setAttribute('class', 'pesoIdeal');
         pElement.appendChild(msg);
         container.appendChild(pElement);
+    }
+}
+
+limpar.onclick = function(){
+    nome.value = '';
+    altura.value = '';
+    sexo.value = 'vazio'
+    limparMsg();
+}
+
+function limparMsg(){
+    let elementoP = document.querySelectorAll('p');
+
+    for(let i = 0; i < elementoP.length; i){
+        container.removeChild(elementoP[i]);
     }
 }
