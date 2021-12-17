@@ -8,7 +8,28 @@ let container = document.querySelector('#container');
 //Função de calcular os dados e dizer qual é o peso ideal
 calcular.onclick = function (){
     limparMsg();
+    calcularPeso();
+}
 
+limpar.onclick = function(){
+    nome.value = '';
+    altura.value = '';
+    sexo.value = 'vazio'
+    limparMsg();
+}
+
+function limparMsg(){
+    let elementoP = document.querySelectorAll('p');
+    if(elementoP.length == 0){
+        return;
+    }else{
+        for(let i = 0; i < elementoP.length; i){
+            container.removeChild(elementoP[i]);
+        }
+    }    
+}
+
+function calcularPeso(){
     if(nome.value === ''){
         let msg = document.createTextNode('Digite um nome');
         let pElement = document.createElement('p');
@@ -21,7 +42,7 @@ calcular.onclick = function (){
         pElement.setAttribute('class', 'erro');
         pElement.appendChild(msg);
         container.appendChild(pElement);
-    }else if(sexo.value == 'vazio') {
+    }else if(sexo.value === 'vazio') {
         let msg = document.createTextNode('Selecione um sexo');
         let pElement = document.createElement('p');
         pElement.setAttribute('class', 'erro');
@@ -36,20 +57,5 @@ calcular.onclick = function (){
         pElement.setAttribute('class', 'pesoIdeal');
         pElement.appendChild(msg);
         container.appendChild(pElement);
-    }
-}
-
-limpar.onclick = function(){
-    nome.value = '';
-    altura.value = '';
-    sexo.value = 'vazio'
-    limparMsg();
-}
-
-function limparMsg(){
-    let elementoP = document.querySelectorAll('p');
-
-    for(let i = 0; i < elementoP.length; i){
-        container.removeChild(elementoP[i]);
     }
 }
