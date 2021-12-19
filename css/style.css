@@ -29,7 +29,6 @@ img{
 }
 
 #form {
-    margin-left: 50px;
     display: flex;
     align-items: start;
     flex-wrap: wrap;
@@ -37,8 +36,7 @@ img{
 
 h1 {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 50px;
 }
 
 h4 {
@@ -56,14 +54,31 @@ input:focus {
 }
 
 #nome {
+    margin-left: 50px;
+}
+
+#ipt_nome {
     width: 300px;
 }
 
 #altura {
+    margin-left: 50px;
+}
+
+#ipt_altura {
     width: 105px;
-    margin-right: 25px;
 }
 
 #sexo {
-    margin-top: 8px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+#btn_div {
+    display: block;
+    margin: auto;
+}
+
+button {
+    width: 100px
 }
