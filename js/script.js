@@ -8,7 +8,6 @@ let container = document.querySelector('#divMsg');
 //Função de calcular os dados e dizer qual é o peso ideal
 calcular.onclick = function (){
     limparMsg();
-    calcularPeso();
 
     if(nome.value === ''){
         let msg = document.createTextNode('Digite um nome');
@@ -66,6 +65,7 @@ let limpaSexo = document.querySelector('#excluir_sexo');
 //Função que limpa input do nome
 limpaNome.onclick = function() {
     nome.value = '';
+    console.log();
 }
 
 //Função que limpa input do altura
@@ -74,6 +74,6 @@ limpaAltura.onclick = function() {
 }
 
 //Função que limpa select de sexo
-limpaNome.onclick = function() {
+limpaSexo.onclick = function() {
     sexo.value = 'vazio';
 }
