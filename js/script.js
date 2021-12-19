@@ -3,7 +3,7 @@ let idade = document.querySelector('#idade');
 let sexo = document.querySelector('#sexo');
 let calcular = document.querySelector('#calcular');
 let limpar = document.querySelector('#limpar');
-let container = document.querySelector('#form');
+let container = document.querySelector('divMsg');
 
 //Função de calcular os dados e dizer qual é o peso ideal
 calcular.onclick = function (){
