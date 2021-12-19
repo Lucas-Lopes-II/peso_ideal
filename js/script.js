@@ -1,9 +1,9 @@
-let nome = document.querySelector('#nome');
-let idade = document.querySelector('#idade');
-let sexo = document.querySelector('#sexo');
+let nome = document.querySelector('#ipt_nome');
+let altura = document.querySelector('#ipt_altura');
+let sexo = document.querySelector('#select_altura');
 let calcular = document.querySelector('#calcular');
 let limpar = document.querySelector('#limpar');
-let container = document.querySelector('divMsg');
+let container = document.querySelector('#divMsg');
 
 //Função de calcular os dados e dizer qual é o peso ideal
 calcular.onclick = function (){
@@ -20,12 +20,10 @@ limpar.onclick = function(){
 
 function limparMsg(){
     let elementoP = document.querySelectorAll('p');
-    if(elementoP.length == 0){
+    if(elementoP.length === 0){
         return;
     }else{
-        for(let i = 0; i < elementoP.length; i){
-            container.removeChild(elementoP[i]);
-        }
+        container.textContent = '';
     }    
 }
 
