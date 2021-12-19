@@ -93,7 +93,7 @@ input:focus {
 #sexo {
     margin-left: 25px;
     background-size: cover;
-    padding-bottom: 10px;
+    padding-top: 3px;
 }
 
 select {
@@ -133,7 +133,7 @@ button:active {
 
 .erro {
     background-color: rgb(236, 105, 105);
-    margin-top: 16px;
+    margin-top: 19px;
     padding: 8px 0 8px 50px;
     font-size: 18px;
     font-weight: bold;
@@ -141,7 +141,7 @@ button:active {
 
 .pesoIdeal {
     background-color: rgb(227, 236, 105);
-    margin-top: 16px;
+    margin-top: 18px;
     padding: 8px 0 8px 50px;
     font-size: 18px;
     font-weight: bold;
