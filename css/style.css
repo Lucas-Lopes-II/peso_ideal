@@ -52,11 +52,6 @@ h1 {
     color: red;
 }
 
-#excluir_sexo {
-    margin-top: 2px;
-}
-
-
 h4 {
     margin-bottom: 10px;
 }
@@ -130,7 +125,15 @@ button:active {
 .erro {
     background-color: rgb(236, 105, 105);
     margin-top: 16px;
-    padding: 5px 0 5px 50px;
+    padding: 8px 0 8px 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pesoIdeal {
+    background-color: rgb(227, 236, 105);
+    margin-top: 16px;
+    padding: 8px 0 8px 50px;
     font-size: 18px;
     font-weight: bold;
 }

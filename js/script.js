@@ -65,7 +65,6 @@ let limpaSexo = document.querySelector('#excluir_sexo');
 //Função que limpa input do nome
 limpaNome.onclick = function() {
     nome.value = '';
-    console.log();
 }
 
 //Função que limpa input do altura
