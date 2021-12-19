@@ -9,25 +9,7 @@ let container = document.querySelector('#divMsg');
 calcular.onclick = function (){
     limparMsg();
     calcularPeso();
-}
 
-limpar.onclick = function(){
-    nome.value = '';
-    altura.value = '';
-    sexo.value = 'vazio'
-    limparMsg();
-}
-
-function limparMsg(){
-    let elementoP = document.querySelectorAll('p');
-    if(elementoP.length === 0){
-        return;
-    }else{
-        container.textContent = '';
-    }    
-}
-
-function calcularPeso(){
     if(nome.value === ''){
         let msg = document.createTextNode('Digite um nome');
         let pElement = document.createElement('p');
@@ -56,4 +38,42 @@ function calcularPeso(){
         pElement.appendChild(msg);
         container.appendChild(pElement);
     }
+}
+
+//Função de limpra todos os inputs e menssagens
+limpar.onclick = function(){
+    nome.value = '';
+    altura.value = '';
+    sexo.value = 'vazio'
+    limparMsg();
+}
+
+//Limpa menssagens
+function limparMsg(){
+    let elementoP = document.querySelectorAll('p');
+    if(elementoP.length === 0){
+        return;
+    }else{
+        container.textContent = '';
+    }    
+}
+
+
+let limpaNome = document.querySelector('#excluir_nome');
+let limpaAltura = document.querySelector('#excluir_altura');
+let limpaSexo = document.querySelector('#excluir_sexo');
+
+//Função que limpa input do nome
+limpaNome.onclick = function() {
+    nome.value = '';
+}
+
+//Função que limpa input do altura
+limpaAltura.onclick = function() {
+    altura.value = '';
+}
+
+//Função que limpa select de sexo
+limpaNome.onclick = function() {
+    sexo.value = 'vazio';
 }

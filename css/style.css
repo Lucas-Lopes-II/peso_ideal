@@ -39,6 +39,24 @@ h1 {
     margin: 20px 0 20px 50px;
 }
 
+.exlui {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(180, 180, 180, 0);
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    padding: 0;
+    color: red;
+}
+
+#excluir_sexo {
+    margin-top: 2px;
+}
+
+
 h4 {
     margin-bottom: 10px;
 }
@@ -71,7 +89,7 @@ input:focus {
 
 #sexo {
     margin-left: 25px;
-    margin-top: 2px;
+    background-size: cover;
 }
 
 select {
