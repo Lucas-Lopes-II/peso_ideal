@@ -108,3 +108,11 @@ button:active {
 #divMsg{
     width: 100%;
 }
+
+.erro {
+    background-color: rgb(236, 105, 105);
+    margin-top: 16px;
+    padding: 5px 0 5px 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
