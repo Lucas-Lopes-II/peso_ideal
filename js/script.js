@@ -16,13 +16,13 @@ calcular.onclick = function (){
         pElement.appendChild(msg);
         container.appendChild(pElement);
     }else if(altura.value === '' || isNaN(altura.value) === true) {
-        let msg = document.createTextNode('Digite a altura');
+        let msg = document.createTextNode(`${nome.value}, digite sua altura`);
         let pElement = document.createElement('p');
         pElement.setAttribute('class', 'erro');
         pElement.appendChild(msg);
         container.appendChild(pElement);
     }else if(sexo.value === 'vazio') {
-        let msg = document.createTextNode('Selecione um sexo');
+        let msg = document.createTextNode(`${nome.value}, selecione seu sexo`);
         let pElement = document.createElement('p');
         pElement.setAttribute('class', 'erro');
         pElement.appendChild(msg);
@@ -31,7 +31,7 @@ calcular.onclick = function (){
         let gen = 0
         sexo.value = 'm' ? gen = 22 : gen = 21;
         let calculo = (gen * (Math.pow(altura.value, 2))).toFixed(2); 
-        let msg = document.createTextNode(`${nome.value}: seu peso ideal é ${calculo}kg`);
+        let msg = document.createTextNode(`${nome.value}, seu peso ideal é ${calculo}kg`);
         let pElement = document.createElement('p');
         pElement.setAttribute('class', 'pesoIdeal');
         pElement.appendChild(msg);
