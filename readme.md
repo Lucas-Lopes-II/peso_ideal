@@ -1,7 +1,5 @@
 # Peso Ideal
->Formula ultilizada
-Homens = 22 * (altura * altura)
-Mulheres = 21 * (altura * altura) 
+>Formula ultilizada: Homens = 22 * (altura * altura) / Mulheres = 21 * (altura * altura) 
 <br/>
 
 ![Peso Ideal](img/readme/pi.gif)
