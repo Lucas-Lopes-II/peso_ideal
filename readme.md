@@ -8,13 +8,17 @@
 # Funcionalidades
 
 ### Calcular
-![Calcular](img/readme/calc.gif)
+![Gif: Calcular](img/readme/calc.gif)
 <br/>
 
 ### Mesnssagens de erro
-![Menssagens de erro](img/readme/erro.gif)
+![Gif: Menssagens de erro](img/readme/erro.gif)
 <br/>
 
 ### Botão de limpar tudo
-![Botão de limpar tudo](img/readme/limpar_tudo.gif)
+![Gif: Botão de limpar tudo](img/readme/limpar_tudo.gif)
+<br/>
+
+### Botão de limpar campo individualmente
+![Gif: Botão de limpar campo individualmente](img/readme/limpar.gif)
 <br/>
