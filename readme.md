@@ -22,3 +22,14 @@
 ### Botão de limpar campo individualmente
 ![Gif: Botão de limpar campo individualmente](img/readme/limpar.gif)
 <br/>
+
+----
+<br/><br/>
+
+## 👨‍💻Tecnologias usadas
+
+✔ JavaScript
+
+✔ HTML
+
+✔ CSS
