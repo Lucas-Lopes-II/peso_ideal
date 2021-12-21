@@ -14,3 +14,7 @@
 ### Mesnssagens de erro
 ![Menssagens de erro](img/readme/erro.gif)
 <br/>
+
+### Botão de limpar tudo
+![Botão de limpar tudo](img/readme/limpar_tudo.gif)
+<br/>
