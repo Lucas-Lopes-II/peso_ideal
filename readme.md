@@ -11,3 +11,6 @@
 ![Calcular](img/readme/calc.gif)
 <br/>
 
+### Mesnssagens de erro
+![Menssagens de erro](img/readme/erro.gif)
+<br/>
