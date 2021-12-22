@@ -39,11 +39,11 @@ calcular.onclick = function (){
     }
 }
 
-//Função de limpra todos os inputs e menssagens
+//Função de limpar todos os inputs e menssagens
 limpar.onclick = function(){
     nome.value = '';
     altura.value = '';
-    sexo.value = 'vazio'
+    sexo.value = 'vazio';
     limparMsg();
 }
 
