@@ -12,15 +12,15 @@
 
 ### Calcular
 ![Gif: Calcular](img/readme/calc.gif)
-<br/>
+<br/><br/>
 
 ### Mesnssagens de erro
 ![Gif: Menssagens de erro](img/readme/erro.gif)
-<br/>
+<br/><br/>
 
 ### Botão de limpar tudo
 ![Gif: Botão de limpar tudo](img/readme/limpar_tudo.gif)
-<br/>
+<br/><br/>
 
 ### Botão de limpar campo individualmente
 ![Gif: Botão de limpar campo individualmente](img/readme/limpar.gif)
