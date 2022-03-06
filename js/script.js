@@ -54,6 +54,6 @@ document.querySelector('#excluir_altura').addEventListener('click', () =>{
 });
 
 //Função que limpa select de sexo
-let limpaSexo = document.querySelector('#excluir_sexo').addEventListener('click', () => {
+document.querySelector('#excluir_sexo').addEventListener('click', () => {
     sexo.value = 'vazio';
 });
